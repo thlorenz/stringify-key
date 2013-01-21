@@ -11,7 +11,7 @@ Stringifies key objects emitted nodejs [readline](http://nodejs.org/api/readline
 ```js
   var stringifyKey = require('stringify-key');
   var key =  {
-    name: c,
+    name: 'c',
     ctrl: true,
     meta: false,
     shift: false
