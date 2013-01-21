@@ -52,6 +52,7 @@ However pressing `alt` in conjunction with a letter is used to enter characters 
 i.e. `alt-p` prints `π`. For that reason `stringify-ley does not consider `alt` as a modifier key like `ctrl, meta,
 shift`
 
+However if an `alt : true` is part of the passed `key` object, it is considered by `stringify-key`.
 
 ### Moral
 
