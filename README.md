@@ -26,7 +26,8 @@ a `Mac Lion xTerm` the `meta` key is never registered.
 
 ### Meta
 
-As just stated the `meta` key is not registered (at least in xTerm).
+As just stated the `meta` key is not registered (at least in xTerm), however if present, `stringify-key` will take it
+into account.
 
 ### Ctrl 
 
