@@ -1,0 +1,26 @@
+{
+  "name": "stringify-key",
+  "version": "0.0.0",
+  "description": "Stringifies key objects emitted nodejs readline.",
+  "main": "stringify-key.js",
+  "scripts": {
+    "test": "node-trap test/*.js && node-trap test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thlorenz/stringify-key.git"
+  },
+  "keywords": [
+    "readline",
+    "string",
+    "print",
+    "convert"
+  ],
+  "author": "Thorsten Lorenz <thlorenz@gmx.de> (thlorenz.com)",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "trap": "git://github.com/thlorenz/trap.git#ok"
+  }
+}
