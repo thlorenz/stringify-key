@@ -1,6 +1,6 @@
 # stringify-key [![build status](https://secure.travis-ci.org/thlorenz/stringify-key.png)](http://next.travis-ci.org/thlorenz/stringify-key)
 
-Stringifies key objects emitted nodejs [readline](http://nodejs.org/api/readline.html).
+Stringifies key objects emitted by nodejs [readline](http://nodejs.org/api/readline.html).
 
 ## Installation
 
