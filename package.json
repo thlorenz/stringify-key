@@ -1,7 +1,7 @@
 {
   "name": "stringify-key",
   "version": "0.1.1",
-  "description": "Stringifies key objects emitted by nodejs [readline](http://nodejs.org/api/readline.html).",
+  "description": "Stringifies key objects emitted by nodejs readline (http://nodejs.org/api/readline.html).",
   "main": "stringify-key.js",
   "scripts": {
     "test": "node-trap test/*.js"
