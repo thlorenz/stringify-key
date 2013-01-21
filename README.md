@@ -49,14 +49,13 @@ uppercased when `ctrl` is pressed.
 There is no code inside the `readline` module that registers pressing the `alt` key.
 
 However pressing `alt` in conjunction with a letter is used to enter characters otherwise not available on the keyboard,
-i.e. `alt-p` prints `π`. For that reason `stringify-key` does not consider `alt` as a modifier key like `ctrl, meta,
-shift`
+i.e. `alt-p` prints `π`. 
 
 However if an `alt : true` is part of the passed `key` object, it is considered by `stringify-key`.
 
 ### Moral
 
-I'm not sure if the other problems are caused by the underlying terminal or an incorrect implemention in `readline`.
+I'm not sure if the problems unexplained problems above are caused by an incorrect implemention in `readline` or the underlying terminal.
 I suggest to investigate the [readline source](https://github.com/joyent/node/blob/master/lib/readline.js) in order to
 get more information and/or fix problems.
 
