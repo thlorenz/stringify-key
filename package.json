@@ -19,7 +19,8 @@
   "author": "Thorsten Lorenz <thlorenz@gmx.de> (thlorenz.com)",
   "license": "MIT",
   "dependencies": {
-    "trap": "git://github.com/thlorenz/trap.git#master"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "trap": "git://github.com/thlorenz/trap.git#master"
+  }
 }
