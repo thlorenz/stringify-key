@@ -4,7 +4,7 @@
   "description": "Stringifies key objects emitted nodejs readline.",
   "main": "stringify-key.js",
   "scripts": {
-    "test": "node-trap test/*.js && node-trap test/**/*.js"
+    "test": "node-trap test/*.js"
   },
   "repository": {
     "type": "git",
