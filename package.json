@@ -1,6 +1,6 @@
 {
   "name": "stringify-key",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Stringifies key objects emitted nodejs readline.",
   "main": "stringify-key.js",
   "scripts": {
