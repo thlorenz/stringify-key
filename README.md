@@ -49,7 +49,7 @@ uppercased when `ctrl` is pressed.
 There is no code inside the `readline` module that registers pressing the `alt` key.
 
 However pressing `alt` in conjunction with a letter is used to enter characters otherwise not available on the keyboard,
-i.e. `alt-p` prints `π`. For that reason `stringify-ley does not consider `alt` as a modifier key like `ctrl, meta,
+i.e. `alt-p` prints `π`. For that reason `stringify-key` does not consider `alt` as a modifier key like `ctrl, meta,
 shift`
 
 However if an `alt : true` is part of the passed `key` object, it is considered by `stringify-key`.
