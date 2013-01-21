@@ -54,8 +54,8 @@ However if an `alt : true` is part of the passed `key` object, it is considered 
 
 ### Moral
 
-I'm not sure if the problems unexplained problems above are caused by an incorrect implemention in `readline` or the underlying terminal.
+I'm not sure if the unexplained problems above are caused by an incorrect implemention in `readline` or the underlying terminal.
 I suggest to investigate the [readline source](https://github.com/joyent/node/blob/master/lib/readline.js) in order to
 get more information and/or fix problems.
 
-However, the moral is to expect unexpected results (npi) when using `stringify-key` for keys emitted by `readline`.
+In conclusion, the moral is to expect unexpected results (npi) when using `stringify-key` for keys emitted by `readline`.
