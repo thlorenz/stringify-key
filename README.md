@@ -10,18 +10,17 @@ Stringifies key objects emitted nodejs [readline](http://nodejs.org/api/readline
 
 ```js
   var stringifyKey = require('stringify-key');
-  var key =  {
-    name: 'c',
-    ctrl: true,
-    meta: false,
-    shift: false
-  };
+
+  var key =  { name: 'c', ctrl: true, meta: false, shift: false };
   console.log(stringifyKey(key)); // ctrl-c
+
+  key =  { name: 'c', ctrl: true, meta: true, shift: true };
+  console.log(stringifyKey(key)); // shift-meta-ctrl-c
 ```
 
 ## Limitations
 
-Although the algorithm works for all keys, the readline module doesn't work consistent in all terminals. For example, on
+Although the algorithm works for all keys, the [readline module](http://nodejs.org/api/readline.html) doesn't work consistent in all terminals. For example, on
 a `Mac Lion xTerm` the `meta` key is never registered.
 
 ### Meta
@@ -31,7 +30,7 @@ into account.
 
 ### Ctrl 
 
-The `ctrl` key seems to work properly, except for the following:
+The `ctrl` key seems to work properly in `readline`, except for the following:
 
 - `ctrl-i` interpreted as `tab`
 - `ctrl-h` interpreted as `backspace`
