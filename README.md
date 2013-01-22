@@ -2,6 +2,8 @@
 
 Stringifies key objects emitted by nodejs [readline](http://nodejs.org/api/readline.html).
 
+Counter part to [parse key](https://github.com/thlorenz/parse-key).
+
 ## Installation
 
     npm i stringify-key
