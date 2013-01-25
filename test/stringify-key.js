@@ -14,6 +14,16 @@ test('given simple key without any modifier', function (t) {
   t.equal(stringify(key), 'c', 'returns just the name of the key')
 })
 
+test('given multi char key without any modifier', function (t) {
+  var key =  {
+    name: 'space',
+    ctrl: false,
+    meta: false,
+    shift: false
+  };
+  t.equal(stringify(key), 'space', 'returns just the name of the key')
+})
+
 test('ctrl modifier', function (t) {
   var key =  {
     name: 'c',
@@ -63,3 +73,13 @@ test('shift, meta and ctrl modifier', function (t) {
   };
   t.equal(stringify(key), 'shift-meta-ctrl-c', 'returns shift-meta-ctrl-letter')
 });
+
+test('given multi char key with ctrl modifier', function (t) {
+  var key =  {
+    name: 'space',
+    ctrl: true,
+    meta: false,
+    shift: false
+  };
+  t.equal(stringify(key), 'ctrl-space', 'returns ctrl-letters')
+})
